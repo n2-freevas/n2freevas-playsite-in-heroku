@@ -1,0 +1,8 @@
+.\n2f-ps-venv\Scripts\activate
+
+deactivate
+
+
+curl -s "http://127.0.0.1:5000/api" | jq
+curl -s "http://127.0.0.1:5000" | jq
+
